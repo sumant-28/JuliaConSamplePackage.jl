@@ -3,6 +3,9 @@ uuid = "187ccb86-06e5-415b-ba03-9f0d7dd07c1e"
 authors = ["sumant-28 <sumant28@hotmail.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+
 [compat]
 julia = "1"
 
