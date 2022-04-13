@@ -1,0 +1,13 @@
+name = "JuliaConSamplePackage"
+uuid = "187ccb86-06e5-415b-ba03-9f0d7dd07c1e"
+authors = ["sumant-28 <sumant28@hotmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
