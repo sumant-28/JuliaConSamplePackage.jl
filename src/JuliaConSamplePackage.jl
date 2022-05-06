@@ -1,6 +1,14 @@
 module JuliaConSamplePackage
 
-export newton
+export newton, MyHellos
+
+"""
+    hello(who::String)
+Return "Hello, `who`".
+"""
+MyHellos(who::String) = "Wassup, $who"
+
+"""
 
 """
 
