@@ -1,16 +1,16 @@
 module JuliaConSamplePackage
-export myHello, myDomath
+export hello, domath
 
 """
     hello(who::String)
 Return "Hello, `who`".
 """
-myHello(who::String) = "Hello, $who"
+hello(who::String) = "Hello from JuliaConSamplePackage.jl, $who"
 
 """
     domath(x::Number)
 Return `x + 5`.
 """
-myDomath(x::Number) = x + 5
+domath(x::Number) = x + 5
 
 end
